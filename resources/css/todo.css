@@ -1,0 +1,41 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 2rem; 
+    background: #f4f4f4; 
+}
+h1 { 
+    text-align: center; 
+}
+.todo-container { 
+    max-width: 500px; 
+    margin: auto; 
+    background: white; 
+    padding: 1rem; 
+    border-radius: 8px; 
+}
+input[type="text"] { 
+    width: 75%; 
+    padding: 0.5rem; 
+}
+button { 
+    padding: 0.5rem 1rem; 
+    margin-left: 5px; 
+    cursor: pointer; 
+}
+ul { 
+    list-style: none; 
+    padding: 0; 
+}
+li { 
+    background: #eee; 
+    margin: 5px 0; 
+    padding: 0.5rem; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-radius: 4px; 
+}
+.done { 
+    text-decoration: line-through; 
+    color: gray; 
+}
